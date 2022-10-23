@@ -11,4 +11,5 @@ changeColorButton.addEventListener("click", () => {
   const randomColor = getRandomHexColor();
 
   body.style = `background-color: ${randomColor};`;
+  spanColorValue.textContent = randomColor;
 });
